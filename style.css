@@ -9,9 +9,14 @@
 
 body {
     margin: 0;
-
     background-image: linear-gradient(132deg, rgb(8, 10, 14) 0%, rgb(37, 53, 77) 100%);
+    background-repeat: no-repeat;
 
+}
+
+.main {
+    min-height: 100vh;
+    height: 100%vh;
 }
 
 .container{
@@ -89,4 +94,47 @@ body {
 .experience h4{
     margin: 0%;
     color:rgb(49, 94, 165);
+}
+
+.blogs{
+    margin-top: 2em;
+}
+
+.blog h2{
+    color: white
+}
+
+.blog-list{
+    margin-top: 0 1em;
+}
+
+
+.blog-list a{
+    color: rgb(71, 139, 248);
+    text-decoration-line: underline;
+}
+
+.blog-list h2{
+    margin: 0;
+}
+
+.blog-list h4{
+    color:rgb(49, 94, 165);
+    margin: 0;
+}
+
+.blogs li{
+    padding: 1em;
+    border-radius: 10px;
+    list-style: none;
+}
+
+.blogs li:hover{
+    transition: 150ms;
+    background-color:rgba(71, 139, 248, .3) ;
+}
+
+.blog-container{
+    margin: 0 auto;
+    max-width: 1500px;
 }
