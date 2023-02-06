@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emitter</title>
+    <meta name="description" content="Hey there!
+    I am Emitter, a backend developer and a Novice hacker/penetratation tester with over 2 years of experience in...">
+
+    <link rel="stylesheet" href="../../style.css">
+    <style>
+        #result {
+            border-radius: 10px;
+            margin: 1.5em;
+            margin-left: 0;
+        }
+
+        #calculate {
+            width: 97%;
+            background-color: rgba(71, 139, 248, .3);
+            border-radius: 5px;
+        }
+
+        #calculate:hover{
+            background-color: rgba(71, 139, 248, .6);
+            cursor: pointer;
+            color: white
+        }
+
+        td p {
+            margin: 0;
+            padding: 0;
+        }
+
+        td {
+            width: 94%;
+        }
+        .eisen-calculator{
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+    <script src="index.js" defer></script>
+
+    <link rel="shortcut icon"
+        href="https://cdn.discordapp.com/avatars/671016674668838952/3778fc63e6843fc7a1f00087b2a04931.webp?size=512"
+        type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+
+        <nav class="nav">
+            <ul class="container">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="https://discord.com/users/671016674668838952" target="_blank">Discord</a></li>
+                <li><a href="https://github.com/Emitter-166" target="_blank">Github</a></li>
+                <li><a href="/blogs.html">Blogs</a></li>
+                <li><a href="mailto:xperimentschaftler@gmail.com" target="_blank"><strong class="link-color">Contact
+                            Me</strong></a></li>
+            </ul>
+        </nav>
+
+
+        <div class="eisen-intro">
+            <h1 class="section-header white">Eisenhower's task prioritization method calculator</h1>
+            <p>The Eisenhower Method, also known as the Eisenhower Matrix, is a time management tool used to prioritize
+                tasks based on urgency and importance. It divides tasks into four categories:</p>
+            <ol>
+                <li>Urgent and important (do first)</li>
+                <li>Important, but not urgent (schedule for later)</li>
+                <li>Urgent, but not important (delegate or outsource)</li>
+                <li>Neither urgent nor important (eliminate)</li>
+            </ol>
+        </div>
+
+        <div class="eisen-calculator">
+            <h2 class="white">Eisenhower's task calculator</h2>
+            <table class="input">
+                <tr>
+                    <td>
+                        <p class="white">• Urgent</p>
+                    </td>
+                    <td><input type="checkbox" name="urgent" id="urgent"></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p class="white">• Important</p>
+                    </td>
+                    <td><input type="checkbox" name="important" id="important"></td>
+                </tr>
+
+            </table>
+
+            <button id="calculate">calculate</button>
+            <br>
+            <img id="result" src="Images/matrix.png" height="400">
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
