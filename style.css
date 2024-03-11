@@ -147,6 +147,6 @@ input[type="checkbox"]{
 @media only screen and (max-width: 600px) {
     /* Adjust the zoom level or layout for smaller screens */
     body {
-        zoom: 40%; /* Adjust the zoom level as needed */
+        zoom: 30%; /* Adjust the zoom level as needed */
     }
 }
