@@ -143,10 +143,3 @@ input[type="checkbox"]{
     width: 20px;
     height: 20px;
 }
-
-@media only screen and (max-width: 600px) {
-    /* Adjust the zoom level or layout for smaller screens */
-    body {
-        zoom: 30%; /* Adjust the zoom level as needed */
-    }
-}
