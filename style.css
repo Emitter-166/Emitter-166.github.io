@@ -144,6 +144,25 @@ input[type="checkbox"]{
     height: 20px;
 }
 
+footer {
+    background-color: rgb(8, 10, 14);
+    color: rgb(192, 192, 192);
+    padding: 2em 0;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    margin: 0;
+}
+
 @media only screen and (max-width: 768px) {
     body {
         width: 1200px;
