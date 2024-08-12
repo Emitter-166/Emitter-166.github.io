@@ -44,8 +44,8 @@ body {
 
 .nav a:hover{
     transition: 150ms;
-    background-color: rgba(71, 139, 248, .3);
-    text-decoration: underline;
+    background-color: rgba(71, 139, 248, 0.15);
+    /* text-decoration: underline; */
 }
 
 .link-color {
